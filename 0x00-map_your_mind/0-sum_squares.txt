@@ -1,14 +1,25 @@
-declare a list variable numbers
-declare a list variable square_numbers
-input how many numbers will be used for the program variable range
+numbers=[]
+square_numbers =[]
+range =input(Write "how many numbers will you input?")
+Read range
 
-FOR LOOP
-    input a number
-    break when numbers entered = range
-    APPEND to numbers LIST
-    ENDFOR
- FOR LOOP
-     square each number in NUMBERS LIST
-     APPEND TO squared_numbers LIST
-     ENDFOR
-  SUM VALUES IN squared_numbers LIST   
+FOR i in range 0 to range
+    num = input(write "enter a number")
+    read num
+    numbers.append(num)
+ENDFOR
+
+FOR num in numbers
+    squared= num*num
+    square_numbers.append(squared)
+ENDFOR
+sum values in square_numbers
+
+    
+    
+    
+     
+    
+
+  
+  
