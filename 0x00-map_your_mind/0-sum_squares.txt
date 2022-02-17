@@ -1,11 +1,10 @@
 declare a list variable numbers
 declare a list variable square_numbers
-ask the user how many numbers they will input
-
+input how many numbers will be used for the program variable range
 
 FOR LOOP
-    element=int(input("enter an number")
-    break when numbers are equal to the range
+    input a number
+    break when numbers entered = range
     APPEND to numbers LIST
     ENDFOR
  FOR LOOP
