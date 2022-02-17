@@ -1,0 +1,15 @@
+declare a list variable numbers
+declare a list variable square_numbers
+ask the user how many numbers they will input
+
+
+FOR LOOP
+    element=int(input("enter an number")
+    break when numbers are equal to the range
+    APPEND to numbers LIST
+    ENDFOR
+ FOR LOOP
+     square each number in NUMBERS LIST
+     APPEND TO squared_numbers LIST
+     ENDFOR
+  SUM VALUES IN squared_numbers LIST   
